@@ -137,6 +137,11 @@ font-family: 'Ysabeau Infant', sans-serif;
     font-weight: bolder;
     
 }
+.btn7{
+    text-decoration: none;
+    color: rgb(6, 9, 19);
+    font-weight: bolder;
+}
 
 #lang{
     margin: 4px;
@@ -274,26 +279,40 @@ text-decoration: none;
   
   
 }
+.intro p{
+    font-weight: bolder;
+}
 .intro h1 p a{
     text-decoration: none;
 }
 .small{
     margin-left: 20px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bolder;
+}
+.security{
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 #btn3{
     padding: 10px 30px 10px 30px;
     background-color: #ffd000;
     border-radius: 3px;
     border: none;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-top: 25px;
 }
-#btn3 a{
+/* #btn3 a{
     text-decoration: none;
     color: black;
     font-weight: bolder;
 
-}
+} */
 .withdrawals{
     display: grid;
     width: 100%;
@@ -336,11 +355,10 @@ font-family: 'Ysabeau Infant', sans-serif;
     padding: 20px;
 }
 .pci{
-    display: inline-block;
-   margin-left:25px;
+   margin-left:10px;
 
 }
-.pci h6{
+.pci {
     color: rgb(119, 118, 111);
 }
 .cards ul{
@@ -738,16 +756,20 @@ font-family: 'Ysabeau Infant', sans-serif;
     border: none;
     border-radius: 3px;
     background-color: #ffd000;
+    color:black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bolder;
 
 }
-#btn9 a{
+/* #btn9 a{
     text-decoration: none;
     color:rgb(6, 9, 19);
     padding-top: 10px;
     font-weight: bolder;
 
-}
-
+} */
+/*  */
 .coont-20 h2, .coont-20 {
     color: white;
 }
@@ -888,4 +910,19 @@ font-family: 'Ysabeau Infant', sans-serif;
     visibility: visible;
     opacity: 1
     ;
+}
+.button{
+    color: #ffd000;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+.foot-info{
+    display: flex;
+    align-content: baseline;
+    justify-content: space-between;
+}
+.foot-info p{
+    margin-top: 55px;
+    font-size: 12px;
 }
